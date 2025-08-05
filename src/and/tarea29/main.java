@@ -16,4 +16,32 @@ public class main {
 
     }
 
+/* Solución del instructor
+
+Interface funcional:
+
+package com.aguzman.tarealambda;
+
+@FunctionalInterface
+public interface FormatearFrase {
+    String limpiarYformatear(String frase);
+}
+Clase con el main y la expresión lambda:
+
+package com.aguzman.tarealambda;
+
+public class ExpresionesLambdaFormatear {
+
+    public static void main(String[] args) {
+
+        FormatearFrase format = frase -> {
+            return frase.replace(".", "")
+                    .replace(",", "").replace(" ", "")
+                    .toUpperCase();
+        };
+
+        String resultado = format.limpiarYformatear("Pedro Pablo Pérez Pereira, pobre pintor portugués, pinta paisajes por poca plata, para pasear por París.");
+        System.out.println(resultado);
+    }
+}*/
 }
