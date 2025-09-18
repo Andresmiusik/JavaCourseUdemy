@@ -7,7 +7,7 @@ import java.util.Scanner;
     - El resto (módulo).
     - El mayor de los dos usando el operador ternario.
 */
-public class actividad1 {
+public class Actividad1 {
 
     public static void main(String[] args) {
 
