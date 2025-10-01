@@ -32,10 +32,10 @@ public class Ejercicio7 {
 
         //Promedio
         for (int i=0 ; i <=numeros.length-1 ; i++){
-            prom += numeros[i];
-            if (i == numeros.length-1){
+            prom += numeros[i];       if (i == numeros.length-1){
                 System.out.println("El promedio de los números es: " + prom/5);
             }
+
         }
 
         //Ordenar Números
