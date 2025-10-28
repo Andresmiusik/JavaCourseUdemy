@@ -21,7 +21,7 @@ public class Main22 {
         String[][] lenguajes = {{"java", "groovy"}, {"php"}, {"c#", "python", "groovy"}, {"java", "javascript", "kotlin"}, {"javascript"}, {}};
 
         Arrays.stream(lenguajes)
-                .flatMap(a -> Arrays.stream(a))
+                .flatMap(l -> Arrays.stream(l))
                 .distinct()
                 .forEach(System.out::println);
     }
